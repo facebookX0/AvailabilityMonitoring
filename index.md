@@ -51,7 +51,7 @@ Complete the following steps to open {{site.data.keyword.prf_hubshort}} for your
 
     A summary of the test configuration is displayed. For example, the following message is displayed for the default settings:
 
-    ```Test will occur: Every 15 minutes from 3 locations simultaneously to determine if test exceeds the specified threshold.```
+    `Test will occur: Every 15 minutes from 3 locations simultaneously to determine if test exceeds the specified threshold.`
 
     The estimated usage and estimated tests per month are displayed based on your current test configuration.
 

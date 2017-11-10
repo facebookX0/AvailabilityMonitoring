@@ -1,5 +1,8 @@
 {:navgroup: .navgroup}
+
 {:topicgroup: .topicgroup}
+
+
 
 {: .toc subcollection="AvailabilityMonitoring" audience="service" href="/docs/services/AvailabilityMonitoring/index.html"}
 Availability Monitoring
@@ -16,9 +19,11 @@ Availability Monitoring
         [Selenium IDE scripting tutorial](https://developer.ibm.com/apm/wp-content/uploads/sites/119/2017/01/BasicSeleniumScriptingTutorial1.0.pdf)
     {: .navgroup-end}
 
+
     {: .navgroup id="howto"}
     avmon_tab.md
     avmon_notifications.md
+
 
     {: .topicgroup}
     Creating tests
