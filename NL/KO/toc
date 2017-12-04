@@ -1,0 +1,53 @@
+{:navgroup: .navgroup}
+
+{:topicgroup: .topicgroup}
+
+
+
+{: .toc subcollection="AvailabilityMonitoring" audience="service" href="/docs/services/AvailabilityMonitoring/index.html"}
+Availability Monitoring
+
+    {: .navgroup id="learn"}
+    index.md
+    avmon_about.md
+    avmon_usage.md
+
+    {: .topicgroup}
+    관련 링크
+        [Availability Monitoring 튜토리얼](https://www.ibm.com/devops/method/tutorials/tutorial_bam)
+        [합성 스크립트 레코딩](https://www.ibm.com/support/knowledgecenter/SSMKFH/com.ibm.apmaas.doc/install/admin_syn_record_script.htm)
+        [Selenium IDE 스크립팅 튜토리얼](https://developer.ibm.com/apm/wp-content/uploads/sites/119/2017/01/BasicSeleniumScriptingTutorial1.0.pdf)
+    {: .navgroup-end}
+
+
+    {: .navgroup id="howto"}
+    avmon_tab.md
+    avmon_notifications.md
+
+
+    {: .topicgroup}
+    테스트 작성
+        avmon_create_webpage_test.md
+        avmon_create_api_test.md
+        avmon_create_script_test.md
+        avmon_create_script_test_github.md
+        avmon_whitelist_blacklist.md
+
+    {: .topicgroup}
+    테스트 보기
+        avmon_dashboard.md
+        avmon_summary.md
+        avmon_alerts.md
+        avmon_tests.md
+        avmon_activities.md
+        avmon_resptime_avail.md
+        avmon_breakdown.md
+    {: .navgroup-end}
+
+    {: .navgroup id="reference"}
+    avmon_alert_desc.md
+    {: .navgroup-end}
+
+    {: .navgroup id="help"}
+    avmon_help.md
+    {: .navgroup-end}
