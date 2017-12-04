@@ -1,6 +1,8 @@
 ---
 
-copyright: years: 2015, 2017 lastupdated: "2017-11-07"
+copyright:
+  years: 2015, 2017
+lastupdated: "2017-11-07"
 
 ---
 
@@ -41,4 +43,4 @@ Para incluir outro teste, clique em **Incluir novo teste**.
 Para parar, iniciar, excluir ou editar um teste sintético, clique no ícone **Ações** ![Ícone Ações](images/actions_icn_white_smll.jpg) e clique na ação que você desejar. Para visualizar os detalhes do teste, clique no teste.
 
 Para visualizar o uso de cada teste sintético, clique no ícone **Custo** ![Ícone Custo](images/cost_icn_white_smll.jpg). Se você estiver inscrito
-no plano pago, seu uso será exibido nos pontos de dados. 
+no plano pago, seu uso será exibido nos pontos de dados.

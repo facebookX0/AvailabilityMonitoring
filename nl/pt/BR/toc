@@ -13,7 +13,10 @@ Monitoramento de disponibilidade
     avmon_usage.md
 
     {: .topicgroup}
-    Links relacionados [Tutorial de Monitoramento de disponibilidade](https://www.ibm.com/devops/method/tutorials/tutorial_bam) [Registrando scripts sintéticos](https://www.ibm.com/support/knowledgecenter/SSMKFH/com.ibm.apmaas.doc/install/admin_syn_record_script.htm) [Tutorial de script IDE do Selenium](https://developer.ibm.com/apm/wp-content/uploads/sites/119/2017/01/BasicSeleniumScriptingTutorial1.0.pdf)
+    Links relacionados
+        [Tutorial de Monitoramento de disponibilidade](https://www.ibm.com/devops/method/tutorials/tutorial_bam)
+        [Registrando scripts sintéticos](https://www.ibm.com/support/knowledgecenter/SSMKFH/com.ibm.apmaas.doc/install/admin_syn_record_script.htm)
+        [Tutorial de script IDE do Selenium](https://developer.ibm.com/apm/wp-content/uploads/sites/119/2017/01/BasicSeleniumScriptingTutorial1.0.pdf)
     {: .navgroup-end}
 
 

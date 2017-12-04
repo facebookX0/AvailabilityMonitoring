@@ -1,6 +1,8 @@
 ---
 
-copyright: years: 2015, 2017 lastupdated: "2017-11-07"
+copyright:
+  years: 2015, 2017
+lastupdated: "2017-11-07"
 
 ---
 
@@ -76,7 +78,7 @@ Atividade para criar uma cadeia de ferramentas para o seu aplicativo. Para obter
 veja [Introdução à Entrega Contínua](../ContinuousDelivery/index.html "(aberta em uma nova guia ou janela)") e [Introdução ao DevOps Insights](../DevOpsInsights/index.html#gettingstarted "(aberta em uma nova guia ou janela)"){: new_window}.
 {: tip}
 
-Se houver mais de um ícone de atividade ou alerta próximos nas linhas Alertas e Atividade, um **ícone de número** exibirá o número de alertas ou atividades nesse momento. 
+Se houver mais de um ícone de atividade ou alerta próximos nas linhas Alertas e Atividade, um **ícone de número** exibirá o número de alertas ou atividades nesse momento.
 Passe o mouse sobre um **ícone de número** para exibir os alertas individuais ou atividades e clique em um alerta ou em uma atividade para visualizar informações no **Feed
 de métrica**.
 

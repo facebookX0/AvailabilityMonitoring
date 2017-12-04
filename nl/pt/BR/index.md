@@ -1,6 +1,8 @@
 ---
 
-copyright: years: 2015, 2017 lastupdated: "2017-11-07"
+copyright:
+  years: 2015, 2017
+lastupdated: "2017-11-07"
 
 ---
 
@@ -33,7 +35,7 @@ aplicativo, para criar um teste de página da web para monitorar outra URL e par
 de notificação para seus testes.
 
 1.  Se você tiver um aplicativo Cloud Foundry que deseja monitorar, clique no nome do
-aplicativo na tabela **Todos os aplicativos** no painel **Apps**. 
+aplicativo na tabela **Todos os aplicativos** no painel **Apps**.
 Se você ainda não tiver um aplicativo, crie-o e o cartão do aplicativo será aberto automaticamente. Os aplicativos Cloud Foundry serão automaticamente vinculados ao {{site.data.keyword.prf_hubshort}} quando você clicar na guia Monitoramento.
 2.  Para abrir o {{site.data.keyword.prf_hubshort}}, clique na
 guia **Monitoramento**. A guia **Monitoramento** exibe
