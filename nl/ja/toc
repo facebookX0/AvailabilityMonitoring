@@ -1,0 +1,52 @@
+{:navgroup: .navgroup}
+
+{:topicgroup: .topicgroup}
+
+
+
+{: .toc subcollection="AvailabilityMonitoring" audience="service" href="/docs/services/AvailabilityMonitoring/index.html"}
+Availability Monitoring
+
+    {: .navgroup id="learn"}
+    index.md
+    avmon_about.md
+    avmon_usage.md
+
+    {: .topicgroup}
+    関連リンク
+        [Availability Monitoring のチュートリアル](https://www.ibm.com/devops/method/tutorials/tutorial_bam) [Recording synthetic scripts](https://www.ibm.com/support/knowledgecenter/SSMKFH/com.ibm.apmaas.doc/install/admin_syn_record_script.htm)
+        [Selenium IDE スクリプトのチュートリアル](https://developer.ibm.com/apm/wp-content/uploads/sites/119/2017/01/BasicSeleniumScriptingTutorial1.0.pdf)
+    {: .navgroup-end}
+
+
+    {: .navgroup id="howto"}
+    avmon_tab.md
+    avmon_notifications.md
+
+
+    {: .topicgroup}
+    テストの作成
+        avmon_create_webpage_test.md
+        avmon_create_api_test.md
+        avmon_create_script_test.md
+        avmon_create_script_test_github.md
+        avmon_whitelist_blacklist.md
+
+    {: .topicgroup}
+    テストの表示
+        avmon_dashboard.md
+        avmon_summary.md
+        avmon_alerts.md
+        avmon_tests.md
+        avmon_activities.md
+        avmon_resptime_avail.md
+        avmon_breakdown.md
+    {: .navgroup-end}
+
+    {: .navgroup id="reference"}
+    avmon_alert_desc.md
+    {: .navgroup-end}
+
+    {: .navgroup id="help"}
+    avmon_help.md
+    {: .navgroup-end}
