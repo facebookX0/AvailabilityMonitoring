@@ -56,4 +56,5 @@ It is recommended that you organize your tests so that all synthetic tests for a
 2. Create a new synthetic test to monitor that host. The Synthetic Tests pane displays all tests that share that monitored host.
 3. Create duplicates of the tests that you want to keep for your current application.
 4. Delete the old tests to remove them from all applications.
+
   **Important**: Displayed tests from other applications are not duplicates. If you delete a test that is visible from another application, that test is deleted from all applications.
