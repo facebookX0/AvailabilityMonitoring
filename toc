@@ -4,7 +4,7 @@
 
 
 
-{: .toc subcollection="AvailabilityMonitoring" audience="service" href="/docs/services/AvailabilityMonitoring/index.html"}
+{: .toc subcollection="AvailabilityMonitoring" audience="service" arm="1920519" href="/docs/services/AvailabilityMonitoring/index.html"}
 Availability Monitoring
 
     {: .navgroup id="learn"}
