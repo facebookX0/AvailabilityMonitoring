@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2015, 2017
-lastupdated: "2017-11-07"
+  years: 2015, 2019
+lastupdated: "2019-02-14"
 
 ---
 
@@ -12,7 +12,7 @@ lastupdated: "2017-11-07"
 {:tip: .tip}
 
 # Breakdown dashboard
-{: avmon_view_breakdown}
+{: #avmon_view_breakdown}
 
 The **Breakdown** dashboard displays key statistical information for your tests. The dashboard also summarizes availability and response time information, historical trends, and test performance data over the previous 24 hours.
 {: shortdesc}
@@ -113,8 +113,8 @@ You can also download a recording of the network traffic for a particular test i
 
 ## Response Time and Availability
 {: #avmon_bdown_rt_avail}
-The Response Time and Availability pane displays a graph of the measured response times and availability for instances of your test over a defined period. For more information, see [Response Time and Availability](avmon_resptime_avail.html "Use the Response Time and Availability pane to help you to visualize response time, availability trends, alerts, and activities over time. The correlation of metrics, alerts, and activities helps you to easily isolate a specific application change or code deployment when you see an impacted response time.").
+The Response Time and Availability pane displays a graph of the measured response times and availability for instances of your test over a defined period. For more information, see [Response Time and Availability](/docs/services/AvailabilityMonitoring?topic=availability-monitoring-avmon_resptime_avail "Use the Response Time and Availability pane to help you to visualize response time, availability trends, alerts, and activities over time. The correlation of metrics, alerts, and activities helps you to easily isolate a specific application change or code deployment when you see an impacted response time.").
 
 ## Activity
 {: #avmon_bdown_activity}
-The Activity pane displays a table of all activities over the past 24 hours. For more information, see [Activity](avmon_activities.html "You can view information for activities in the Activity pane. Activities are actions that occur outside of the user-defined events.").
+The Activity pane displays a table of all activities over the past 24 hours. For more information, see [Activity](/docs/services/AvailabilityMonitoring?topic=availability-monitoring-avmon_activities "You can view information for activities in the Activity pane. Activities are actions that occur outside of the user-defined events.").

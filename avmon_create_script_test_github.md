@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2015, 2017
-lastupdated: "2017-11-07"
+  years: 2015, 2019
+lastupdated: "2019-02-14"
 
 ---
 
@@ -23,8 +23,8 @@ Script tests require Selenium scripts to work. In order to create a script test,
 
 To create script tests from Selenium scripts that are stored in a GitHub repository, you must complete the following steps:
 
--   Enable {{site.data.keyword.contdelivery_full}} for your application. For more information, see [Continuous Delivery](../ContinuousDelivery/index.html "(Opens in a new tab or window)"){: new_window}.
--   Authorize {{site.data.keyword.Bluemix_notm}} to access GitHub as part of your toolchain. For more information, see [Configuring GitHub](../ContinuousDelivery/toolchains_integrations.html#github "(Opens in a new tab or window)"){: new_window}.
+-   Enable {{site.data.keyword.contdelivery_full}} for your application. For more information, see [Continuous Delivery](/docs/ContinuousDelivery?topic=ContinuousDelivery-cd_getting_started "(Opens in a new tab or window)"){: new_window}.
+-   Authorize {{site.data.keyword.Bluemix_notm}} to access GitHub as part of your toolchain. For more information, see [Configuring GitHub](/docs/ContinuousDelivery?topic=ContinuousDelivery-github "(Opens in a new tab or window)"){: new_window}.
 
 ## About this task
 {: #avmon_git_about}
@@ -48,7 +48,7 @@ To create a script test, complete the following steps.
 3.  Enter a meaningful name for your test in the **Name** field. Add a description of the purpose of your test to the **Description** field.
 4.  Select an available GitHub repository and enter the file path to the script in your chosen repository.
 5.  To ensure that your test continuously uses the most recent version of your Selenium script from your **Git repository**, select **Auto-Sync script with delivery pipeline**.
-6.  Use the **Blacklist** and **Whitelist** to specify which URLs and domains to send requests to and which URLs and domains contribute to the metrics and status of your application tests. Add URLs and domains that you want to include or block to the **Whitelist** and **Blacklist**. For more information about blocking and filtering, see [Blocking and filtering with the whitelist and blacklist](avmon_whitelist_blacklist.html#avmon_whitelist_blacklist "Use the whitelist and blacklist to determine which resources to send requests to and which resources contribute to the metrics and status of your application tests. Whitelists and blacklists are only available for webpage and scripted behavior tests.").
+6.  Use the **Blacklist** and **Whitelist** to specify which URLs and domains to send requests to and which URLs and domains contribute to the metrics and status of your application tests. Add URLs and domains that you want to include or block to the **Whitelist** and **Blacklist**. For more information about blocking and filtering, see [Blocking and filtering with the whitelist and blacklist](/docs/services/AvailabilityMonitoring?topic=availability-monitoring-avmon_filters "Use the whitelist and blacklist to determine which resources to send requests to and which resources contribute to the metrics and status of your application tests. Whitelists and blacklists are only available for webpage and scripted behavior tests.").
 7.  To configure your test settings, click **Next**. A summary of the test configuration is displayed. For example, the following message is displayed for the default settings:
 
     ``Test will occur: Every 15 minutes from 3 locations simultaneously to determine if test exceeds 5 seconds``.
@@ -61,9 +61,16 @@ To create a script test, complete the following steps.
     - **Critical Threshold** defines the response time for critical alerts for the test.
     - **Warning Threshold** defines the response time for warning alerts for the test.
     - **Locations** determines the locations where your test will run.
+    - **Alert triggers** set your test to generate alerts after a set number of consecutive threshold breaches or failures.
 
-    If required, you can enter the values for variables that are defined in your test script. For example, if your script requires a user name and password to connect to a website, you can enter the values for these variables. You can set different values for your variables in different locations in the **Script Variables** table.
+9.  Select your locations from a list of **Public Locations**.
 
-    Click **Save** to finish configuring your test.
+10. In the **Alert Triggers** section, select the **Threshold breached consecutively** check box to set the test to generate an alert only after consecutive threshold breaches. In the **times** field, enter how many threshold breaches must take place before an alert is generated. To enable a test to report test failures, ensure that **Failure detected** is set to **On**.
 
-9.  Click **Finish**. The {{site.data.keyword.prf_hubshort}} dashboard displays a summary of all your tests, a map and table that display the severity and location of your alerts, all synthetic tests that are associated with your application, a table of your activities, and a line graph that depicts the response time and availability of your application and other websites.
+    To set the test to generate an alert only after consecutive test failures, select the **Failure detected consecutively** check box. In the **times** field, enter how many failures are required before an alert is generated.
+
+    For more information, see [Alert Triggers](/docs/services/AvailabilityMonitoring?topic=availability-monitoring-avmon_alert_triggers "Alert Triggers control when alerts for consecutive threshold breaches or consecutive test failures are generated and reported to the Availability Monitoring dashboard.")
+
+11. If required, you can enter the values for variables that are defined in your test script. For example, if your script requires a user name and password to connect to a website, you can enter the values for these variables. You can set different values for your variables in different locations in the **Script Variables** table.
+
+12. Click **Save** to finish configuring your test; then, click **Finish**. The {{site.data.keyword.prf_hubshort}} dashboard is displayed. After a minute, the dashboard displays information and data for your new test.

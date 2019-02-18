@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2015, 2017
-lastupdated: "2017-11-07"
+  years: 2015, 2019
+lastupdated: "2019-02-14"
 
 ---
 
@@ -21,6 +21,6 @@ When you use the forums to ask a question, tag your question so that it is seen 
 -   If you have technical questions about using the {{site.data.keyword.prf_hubshort}} service with an app, post your question on [Stack Overflow](http://stackoverflow.com/search?q=availability-monitoring+ibm-bluemix "(Opens in a new tab or window)"){: new_window} and tag your question with "ibm-bluemix" and "availability-monitoring".
 -   For questions about the service and getting started instructions, use the [IBM developerWorks dW Answers](https://developer.ibm.com/answers/smartspace/bluemix/ "(Opens in a new tab or window)"){: new_window} forum. Include the "bluemix" and "availability-monitoring" tags.
 
-See [Getting help](https://console.{DomainName}/docs/support/index.html#getting-help){: new_window} for more details about using the forums.
+See [Getting help](/docs/get-support?topic=get-support-using-avatar){: new_window} for more details about using the forums.
 
-For information about opening an {{site.data.keyword.IBM}} support ticket, or about support levels and ticket severities, see [Contacting support](https://console.{DomainName}/docs/support/index.html#contacting-support){: new_window}.
+For information about opening an {{site.data.keyword.IBM}} support ticket, or about support levels and ticket severities, see [Contacting support](/docs/get-support?topic=get-support-getting-customer-support){: new_window}.

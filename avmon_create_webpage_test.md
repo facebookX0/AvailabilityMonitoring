@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2015, 2017
-lastupdated: "2017-11-07"
+  years: 2015, 2019
+lastupdated: "2019-02-14"
 
 ---
 
@@ -41,7 +41,7 @@ To create a webpage test, complete the following steps.
 
     ![Response Validation section with default warning and critical thresholds.](images/avmon_webpage_resp_val.png)
 
-6.  Use the **Blacklist** and **Whitelist** to specify which URLs and domains to send requests to and which URLs and domains contribute to the metrics and status of your application tests. Add URLs and domains that you want to include or block to the **Whitelist** and **Blacklist**. For more information about blocking and filtering, see [Blocking and filtering with the whitelist and blacklist](avmon_whitelist_blacklist.html#avmon_whitelist_blacklist "Use the whitelist and blacklist to determine which resources to send requests to and which resources contribute to the metrics and status of your application tests. Whitelists and blacklists are only available for webpage and scripted behavior tests.").
+6.  Use the **Blacklist** and **Whitelist** to specify which URLs and domains to send requests to and which URLs and domains contribute to the metrics and status of your application tests. Add URLs and domains that you want to include or block to the **Whitelist** and **Blacklist**. For more information about blocking and filtering, see [Blocking and filtering with the whitelist and blacklist](/docs/services/AvailabilityMonitoring?topic=availability-monitoring-avmon_filters "Use the whitelist and blacklist to determine which resources to send requests to and which resources contribute to the metrics and status of your application tests. Whitelists and blacklists are only available for webpage and scripted behavior tests.").
 7.  Click **Verify** to create your webpage test and to determine whether your test request is valid.
 
     {{site.data.keyword.prf_hubshort}} determines the test validity by sending a GET request to your test URL. No response validation takes place during test verification.
@@ -54,11 +54,18 @@ To create a webpage test, complete the following steps.
 
     The estimated usage and estimated number of tests per month are displayed based on your current test configuration.
 
-9.  In the Settings pane, click **Edit** to display the current settings for your test. You can update the following settings:
+9.  In the **Settings** pane, click **Edit** to display the current settings for your test. You can update the following settings:
     - **Interval** defines how often the test runs.
     - **Testing frequency** determines whether your test runs from all locations simultaneously or from a different location at each interval. Select **Simultaneous** to run your test from all locations simultaneously, or select **Staggered** to run your test from a different selected location at each interval.
     - **Locations** determines the locations where your test will run.
+    - **Alert triggers** set your test to generate alerts after a set number of consecutive threshold breaches or failures.
 
-    Click **Save** to finish configuring your test.
+10. Select your locations from a list of **Public Locations**.
 
-10. Click **Finish**. The {{site.data.keyword.prf_hubshort}} dashboard displays a summary of all your tests, a map and table that display the severity and location of your alerts, all synthetic tests that are associated with your application, a table of your activities, and a line graph that depicts the response time and availability of your application and other websites.
+11. In the **Alert Triggers** section, select the **Threshold breached consecutively** check box to set the test to generate an alert only after consecutive threshold breaches. In the **times** field, enter how many threshold breaches must take place before an alert is generated. To enable a test to report test failures, ensure that **Failure detected** is set to **On**.
+
+    To set the test to generate an alert only after consecutive test failures, select the **Failure detected consecutively** check box. In the **times** field, enter how many failures are required before an alert is generated.
+
+    For more information, see [Alert Triggers](/docs/services/AvailabilityMonitoring?topic=availability-monitoring-avmon_alert_triggers "Alert Triggers control when alerts for consecutive threshold breaches or consecutive test failures are generated and reported to the Availability Monitoring dashboard.")
+
+12. Click **Save** to finish configuring your test; then, click **Finish**. The {{site.data.keyword.prf_hubshort}} dashboard is displayed. After a minute, the dashboard displays information and data for your new test.

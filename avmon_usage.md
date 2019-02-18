@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2015, 2017
-lastupdated: "2017-11-07"
+  years: 2015, 2019
+lastupdated: "2019-02-14"
 
 ---
 
@@ -27,4 +27,4 @@ Where T = number of synthetic tests that are executed, L = number of locations, 
 
 Simple tests such as webpage and REST API tests use 1 data point for each test. Advanced tests such as Selenium scripts and REST API scripts use 100 data points for each test.
 
-You can view your actual usage on the Usage Dashboard on the {{site.data.keyword.Bluemix_notm}} Account page. Click **Account**; then select **Usage Dashboard** and scroll down to the **Service Charges** section. Click the **Arrow** icon for the {{site.data.keyword.prf_hubshort}} service to view how many data points you have used. For more information about {{site.data.keyword.prf_hubshort}} pricing and usage plans, see Pricing Plans on the [Availability Monitoring](https://console.{DomainName}/catalog/services/availability-monitoring/ "(Opens in a new tab or window)"){: new_window} catalog page.
+You can view your actual usage on the Usage Dashboard on the {{site.data.keyword.Bluemix_notm}} Account page. Click **Account**; then select **Usage Dashboard** and scroll down to the **Service Charges** section. Click the **Arrow** icon for the {{site.data.keyword.prf_hubshort}} service to view how many data points you have used. For more information about {{site.data.keyword.prf_hubshort}} pricing and usage plans, see Pricing Plans on the [Availability Monitoring](https://{DomainName}/catalog/services/availability-monitoring/ "(Opens in a new tab or window)"){: new_window} catalog page.

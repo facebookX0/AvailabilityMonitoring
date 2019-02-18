@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2015, 2017
-lastupdated: "2017-11-07"
+  years: 2015, 2019
+lastupdated: "2019-02-14"
 
 ---
 
@@ -43,7 +43,7 @@ You can easily identify warning and critical alerts in the Alerts row. Hover ove
 
 You can also view activities on the same graph. _Activities_ are actions that occur which are not user-defined events. {{site.data.keyword.Bluemix_notm}} activities are application events that take place in {{site.data.keyword.Bluemix_notm}}, such as your application stopping, starting, or being restaged. Pipeline activities are events that take place in your {{site.data.keyword.contdelivery_short}} toolchain, such as builds, deployments, and tests. Click an activity to display information about that activity in the **Metric Feed**. You can view information about these activities in the Activity pane.
 
-To view Pipeline activities in the {{site.data.keyword.prf_hubshort}} dashboard, you must first enable {{site.data.keyword.contdelivery_short}} for your application, and configure a toolchain that contains a pipeline and the {{site.data.keyword.DRA_short}} service. Click **Pipeline Setup** on the Summary pane or the Activity pane to create a toolchain for your application. For more information, see [Getting started with Continuous Delivery](../ContinuousDelivery/index.html "(Opens in a new tab or window)") and [Getting started with DevOps Insights](../DevOpsInsights/index.html#gettingstarted "(Opens in a new tab or window)"){: new_window}.
+To view Pipeline activities in the {{site.data.keyword.prf_hubshort}} dashboard, you must first enable {{site.data.keyword.contdelivery_short}} for your application, and configure a toolchain that contains a pipeline and the {{site.data.keyword.DRA_short}} service. Click **Pipeline Setup** on the Summary pane or the Activity pane to create a toolchain for your application. For more information, see [Getting started with Continuous Delivery](/docs/services/ContinuousDelivery?topic=ContinuousDelivery-cd_getting_started "(Opens in a new tab or window)"){:new_window} and [Getting started with DevOps Insights](/docs/services/DevOpsInsights?topic=DevOpsInsights-getting-started "(Opens in a new tab or window)"){:new_window}.
 {: tip}
 
 If there is more than one activity or alert icon close together on the Alerts and Activity rows, a **number icon** displays the number of alerts or activities at that time. Hover over a **number icon** to display the individual alerts or activities, and click an alert or activity to view information in the **Metric Feed**.

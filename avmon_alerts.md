@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2015, 2017
-lastupdated: "2017-11-07"
+  years: 2015, 2019
+lastupdated: "2019-02-14"
 
 ---
 
@@ -33,9 +33,8 @@ The **Host location** icon ![Host location icon.](images/icn_host_crit_whtbackgr
 
 Add PoP locations to your selected test by hovering over an **Inactive PoP location** icon ![Inactive PoP location](images/icn_avbl_pop.jpg) and clicking **Test here**. The Test Edit Mode page is displayed for your selected test. You can select a test from the **Test** drop-down menu on the **Response Time** and **Availability** pane.
 
-<!--
 Private PoP locations are represented by **Private PoP location** icons ![Private PoP location icon that indicates 2 alerts with one or more critical alerts at that location.](images/avmon_private_pop.png).
--->
+
 ### Number of alerts
 The **Host location** icon and **PoP location** icons display the number of open, closed, or all alerts that are generated at each location. The Critical, Warning, and Normal icons ![Critical, Warning, and Normal icons.](images/fltr_alrts_tbl.jpg) display the number of alerts of each severity for your locations.
 

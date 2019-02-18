@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2015, 2017
-lastupdated: "2017-11-07"
+  years: 2015, 2019
+lastupdated: "2019-02-14"
 
 ---
 
@@ -37,11 +37,11 @@ To create a REST API test, complete the following steps.
 
     ![Example of a REST API test that uses the POST request method.](images/avmon_restapi_post.png)
 
-5.  You can configure your test to include a particular header and value. Enter a header name and header value in the **Header** fields.
+5.  Optional: You can configure your test to include a particular header and value. Enter a header name and header value in the **Header** fields.
 
-    If the web application that you want to test requires a user login and password, enter "Authorization" into the **Header name** field. Enter the word "Basic", a space character, and the base64 encoded value of your username:password into the **Header value** field.
+    If the web application that you want to test requires a user login and password, enter "Authorization" into the **Header name** field. Enter the word "Basic", a space character, and the base64 encoded value of your _username:password_ into the **Header value** field.
 
-    For example, if your username is Aladdin and your password is OpenSesame, then enter the word "Basic", a space character, and the base64 encoded value for Aladdin:OpenSesame into the **Header value** field.
+    For example, if your username is _Aladdin_ and your password is _OpenSesame_, then enter the word "Basic", a space character, and the base64 encoded value for _Aladdin:OpenSesame_ into the **Header value** field.
 
     ![Header fields depicting test authorization credentials in base64.](images/avmon_apitest_auth.png)
 
@@ -51,18 +51,18 @@ To create a REST API test, complete the following steps.
 
 7.  Click **Add Condition** to define and add customized response validation conditions. Customized response validation conditions are evaluated in aggregate to generate an alert. You can define and add up to six customized conditions for your test.
 
-    In {{site.data.keyword.prf_hubshort}}, each test can generate up to a total of three alerts. Your test reports the alert with the highest severity until all conditions that cause alerts are resolved. For more information, see [Alert generation in Availability Monitoring](avmon_alert_desc.html "In Availability Monitoring, tests can generate up to a total of three alerts. Your test reports the alert with the highest severity until the condition causing the alert is resolved.")
+    In {{site.data.keyword.prf_hubshort}}, each test can generate up to a total of three alerts. Your test reports the alert with the highest severity until all conditions that cause alerts are resolved. For more information, see [Alert generation in Availability Monitoring](/docs/services/AvailabilityMonitoring?topic=availability-monitoring-avmon_alert_desc "In Availability Monitoring, tests can generate up to a total of three alerts. Your test reports the alert with the highest severity until all conditions that cause alerts are resolved.")
     {: tip}
 
     You can validate the following data:
 
     - **Header response code**. Select **Header response code** to test for one or for a range of HTTP response codes.
     - **Header property**. Select **Header property** to test for a particular HTTP header field property and value.
-    - **Body json**. Select **Body json** to test for a particular property from a JSON body.
+    - **Body JSON**. Select **Body JSON** to test for a particular property from a JSON body.
 
-      For each condition, enter a property to test for in the **Target** field, and a value to test for in the **Value** field. Select an operator from the **Operation** drop-down menu. Finally, choose an Alert severity of **Warning** or **Critical** for your condition.
+      For each condition, enter a property to test for in the **Target** field, and a value to test for in the **Value** field. Select an operator from the **Operation** drop-down menu. Finally, choose an **Alert severity** of Warning or Critical for your condition.
 
-    Numerical values that you enter in the **Value** field are treated as numbers and not strings by default. When entering a **Value** for a response validation condition, use quotation marks "" to distinguish between a string and a number. For example, to test for the string 123, enter "123" in the Value field. To check for the number 400, enter 400 without any quotation marks.
+    Numerical values that you enter in the **Value** field are treated as numbers and not strings by default. To enter a **Value** for a response validation condition, use quotation marks "" to distinguish between a string and a number. For example, to test for the string 123, enter "123" in the **Value** field. To check for the number 400, enter 400 without any quotation marks.
     {: tip}
 
     ![Response validation conditions for a REST API test](images/avmon_restapi_resp_val2.png)
@@ -73,7 +73,7 @@ To create a REST API test, complete the following steps.
 
     Your validated test is displayed in the Verified Items table. You can add more URLs by repeating steps 3 - 8.
 
-9.  To configure your test settings, click Next.
+9.  To configure your test settings, click **Next**.
 
     A summary of the test configuration is displayed. For example, the following message is displayed for the default settings:
 
@@ -81,12 +81,19 @@ To create a REST API test, complete the following steps.
 
     The estimated usage and estimated number of tests per month are displayed based on your current test configuration.
 
-10. In the Settings pane, click **Edit** to display the current settings for your test.
+10. In the **Settings** pane, click **Edit** to display the current settings for your test. You can updated the following settings:
 
-    You can change the interval of the tests, the testing frequency, and the locations where the tests are sent from.
+    - **Interval** defines how often the test runs.
+    - **Testing frequency** determines whether your test runs from all locations simultaneously or from a different location at each interval. Select **Simultaneous** to run your test from all locations simultaneously, or select **Staggered** to run your test from a different selected location at each interval.
+    - **Locations** determines the locations where your test runs.
+    - **Alert triggers** set your test to generate alerts after a set number of consecutive threshold breaches or failures.
 
-    ![Test Settings pane displaying the default settings for a test.](images/avmon_settings.png)
+11. Select your locations from the list of **Public Locations**.
 
-    Select **Simultaneous** to run your test from all locations simultaneously, or select **Staggered** to run your test from a different selected location at each interval. Click **Save** to finish configuring your test.
+12. In the **Alert Triggers** section, select the **Threshold breached consecutively** check box to set the test to generate an alert only after consecutive threshold breaches. In the **times** field, enter how many threshold breaches must take place before an alert is generated. To enable a test to report test failures, ensure that **Failure detected** is set to **On**.
 
-11. Click **Finish**. The {{site.data.keyword.prf_hubshort}} dashboard displays a summary of all your tests, a map and table that display the severity and location of your alerts, all synthetic tests that are associated with your application, a table of your activities, and a line graph that depicts the response time and availability of your application and other websites.
+    To set the test to generate an alert only after consecutive test failures, select the **Failure detected consecutively** check box. In the **times** field, enter how many failures are required before an alert is generated.
+
+    For more information, see [Alert Triggers](/docs/services/AvailabilityMonitoring?topic=availability-monitoring-avmon_alert_triggers "Alert Triggers control when alerts for consecutive threshold breaches or consecutive test failures are generated and reported to the Availability Monitoring dashboard.")
+
+13. Click **Save** to finish configuring your test; then, click **Finish**. The {{site.data.keyword.prf_hubshort}} dashboard is displayed. After a minute, the dashboard displays information and data for your new test.

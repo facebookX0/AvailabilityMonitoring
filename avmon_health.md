@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2015, 2017
-lastupdated: "2017-9-28"
+  years: 2015, 2019
+lastupdated: "2019-02-14"
 
 ---
 
@@ -32,7 +32,7 @@ Click ![View Contributions menu that you can expand to see contributing transact
 {: #avmon_health_availability}
 **Availability** shows the degree to which your application is operational. Availability is determined by the percentage of your synthetic test instances that passed successfully. For example, if all your synthetic tests ran successfully during the latest interval, the current Availability value for your application is 100%.
 
-You can configure how {{site.data.keyword.prf_hubshort}} calculates Availability from the Monitoring tab by selecting tests for inclusion in the Availability calculation. For more information, see [Accessing Availability Monitoring](avmon_tab.html "You can access the Availability Monitoring dashboard from the **Monitoring** tab. The Monitoring tab for your Cloud Foundry application displays summary information about the availability and status of your tests, and your service subscription details and usage.").
+You can configure how {{site.data.keyword.prf_hubshort}} calculates Availability from the Monitoring tab by selecting tests for inclusion in the Availability calculation. For more information, see [Accessing Availability Monitoring](/docs/services/AvailabilityMonitoring?topic=availability-monitoring-avmon_tab "You can access the Availability Monitoring dashboard from the **Monitoring** tab. The Monitoring tab for your Cloud Foundry application displays summary information about the availability and status of your tests, and your service subscription details and usage.").
 
 {{site.data.keyword.prf_hubshort}} calculates the percentage of your test instances that are available per hour. Hover over the line on the graph to see the value each hour interval during the past 24 hours or 7 days.
 
