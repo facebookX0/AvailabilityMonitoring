@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2019
-lastupdated: "2019-02-14"
+lastupdated: "2019-02-21"
 
 ---
 
@@ -18,4 +18,4 @@ You can configure the monitoring feature to send notifications when an event occ
 
 To receive email notifications of your alerts, click the **Configure** icon ![Configure icon](images/config_icn_white_smll.jpg) on the {{site.data.keyword.prf_hubshort}} dashboard header; then, click **Enable** in the Team Notifications field. When email notifications are enabled, you can click **Edit Policies** to configure your alert notifications with {{site.data.keyword.alertnotificationshort}}.
 
-For more information about using the {{site.data.keyword.alertnotificationshort}} service, see [Alert Notification](/docs/AlertNotification?topic=containers-/docs/services/AlertNotification/alert_gettingstarted "(Opens in a new tab or window)"){: new_window}.
+For more information about using the {{site.data.keyword.alertnotificationshort}} service, see [Alert Notification](/docs/services/AlertNotification?topic=containers-alert_gettingstarted "(Opens in a new tab or window)"){: new_window}.
