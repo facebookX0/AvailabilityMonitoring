@@ -4,6 +4,9 @@ copyright:
   years: 2015, 2019
 lastupdated: "2019-02-14"
 
+keywords: Selenium, scripts, script variables, automated tests, configuring tests
+
+subcollection: availability-monitoring
 ---
 
 {:shortdesc: .shortdesc}

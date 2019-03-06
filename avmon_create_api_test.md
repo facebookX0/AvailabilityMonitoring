@@ -4,6 +4,10 @@ copyright:
   years: 2015, 2019
 lastupdated: "2019-02-14"
 
+keywords: REST, GET, PUT, POST, DELETE, validate data, authorization, response validation, custom thresholds, configuring tests
+
+subcollection: availability-monitoring
+
 ---
 
 {:shortdesc: .shortdesc}

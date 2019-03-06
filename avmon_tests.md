@@ -4,6 +4,10 @@ copyright:
   years: 2015, 2019
 lastupdated: "2019-02-14"
 
+
+keywords: create tests, display tests, view tests, configure, edit, create, delete
+
+subcollection: availability-monitoring
 ---
 
 {:shortdesc: .shortdesc}

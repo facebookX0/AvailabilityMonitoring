@@ -4,6 +4,10 @@ copyright:
   years: 2015, 2019
 lastupdated: "2019-02-14"
 
+keywords: test monitoring, application monitoring, synthetic tests, selenium tests, REST API, tutorials
+
+subcollection: availability-monitoring
+
 ---
 
 {:shortdesc: .shortdesc}

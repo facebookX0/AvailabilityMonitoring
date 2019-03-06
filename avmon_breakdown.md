@@ -4,6 +4,10 @@ copyright:
   years: 2015, 2019
 lastupdated: "2019-02-14"
 
+keywords: test dashboard, test instances, historical data, test performance, drill-down
+
+subcollection: availability-monitoring
+
 ---
 
 {:shortdesc: .shortdesc}

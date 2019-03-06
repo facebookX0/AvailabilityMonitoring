@@ -4,6 +4,10 @@ copyright:
   years: 2015, 2019
 lastupdated: "2019-02-14"
 
+keywords: activities, DevOps monitoring, View insights, Pipeline activities
+
+subcollection: availability-monitoring
+
 ---
 
 {:shortdesc: .shortdesc}

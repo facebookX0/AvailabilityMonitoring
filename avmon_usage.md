@@ -4,6 +4,10 @@ copyright:
   years: 2015, 2019
 lastupdated: "2019-02-14"
 
+keywords: usage metrics, data points, Lite plan, paid plan, actual usage, predicted usage
+
+subcollection: availability-monitoring
+
 ---
 
 {:shortdesc: .shortdesc}

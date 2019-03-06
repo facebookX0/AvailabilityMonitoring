@@ -4,6 +4,10 @@ copyright:
   years: 2015, 2019
 lastupdated: "2018-01-11"
 
+keywords: dashboard description, widgets, panes, change application, view application
+
+subcollection: availability-monitoring
+
 ---
 
 {:shortdesc: .shortdesc}

@@ -2,7 +2,11 @@
 
 copyright:
   years: 2015, 2019
-lastupdated: "2019-02-21"
+lastupdated: "2019-02-14"
+
+keywords: integrate alert notification, email notifications, notification policies, alert policies
+
+subcollection: availability-monitoring
 
 ---
 

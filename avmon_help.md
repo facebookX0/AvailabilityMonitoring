@@ -4,6 +4,10 @@ copyright:
   years: 2015, 2019
 lastupdated: "2019-02-14"
 
+keywords: help, support, more information, questions, support ticket, forums, troubleshoot
+
+subcollection: availability-monitoring
+
 ---
 
 {:shortdesc: .shortdesc}

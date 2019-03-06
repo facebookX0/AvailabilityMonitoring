@@ -4,6 +4,9 @@ copyright:
   years: 2015, 2019
 lastupdated: "2019-02-14"
 
+keywords: metric display, view availability, view response, test performance, graphs, test results
+
+subcollection: availability-monitoring
 ---
 
 {:shortdesc: .shortdesc}

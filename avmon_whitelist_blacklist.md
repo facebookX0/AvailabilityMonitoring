@@ -4,6 +4,10 @@ copyright:
   years: 2015, 2019
 lastupdated: "2018-02-15"
 
+keywords: filters, blacklist, whitelist, filter rules
+
+subcollection: availability-monitoring
+
 ---
 
 {:shortdesc: .shortdesc}
