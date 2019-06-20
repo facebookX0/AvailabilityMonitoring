@@ -1,7 +1,7 @@
 {:navgroup: .navgroup}
 {:topicgroup: .topicgroup}
 
-{: .toc subcollection="availability-monitoring" service-name="Availability Monitoring" arm="1920519" audience="service" href="/docs/services/AvailabilityMonitoring/index.html" path="services/AvailabilityMonitoring"}
+{: .toc subcollection="availability-monitoring" category="devops" arm="1920519" audience="service" href="/docs/services/AvailabilityMonitoring/index.html" path="services/AvailabilityMonitoring"}
 Availability Monitoring
 
     {: .navgroup id="learn"}
